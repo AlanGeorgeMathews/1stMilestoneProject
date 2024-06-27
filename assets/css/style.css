@@ -18,7 +18,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-* Header */
+/* Header */
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -91,8 +91,19 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: rgb(99, 39, 4);
+#social-networks {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 
@@ -125,11 +136,9 @@ footer {
         margin: 0 0.5rem;
     }
 
-}  
     /* Main content */
-main {
-       
-    /* Push main content down to accommodate larger header */
+    main {
+        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
