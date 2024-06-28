@@ -18,6 +18,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+
+    font-family: ‘Inter’, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -36,12 +44,7 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: ‘Inter’, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
+
 
 #menu {
     font-size: 120%;
@@ -95,6 +98,33 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
+}
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(75, 73, 73, 0.65);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(67, 66, 66, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
 }
 
 /* Aeration Hero section */
@@ -154,6 +184,13 @@ main {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+    /* Hero image */
+
+    /* Hero image */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
